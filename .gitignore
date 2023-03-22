@@ -1,1 +1,4 @@
 **/*.csv
+/*.parquet
+/*.p
+lightning_logs/*
