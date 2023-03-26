@@ -1,0 +1,7 @@
+This directory consists of notebooks, which were used during the completion of the final project.
+In total there are ... of them:
+1. `Transactions_catboost_and_embed_size_experiment.ipynb` was used to get the embeddings for the downstream task, using transactions dataset and COLES method. Also the metrics for the downstream task was obtained, as well as experiment on the dependency between the embedding size and quality of the model was conducted using transactions
+2. `clickstreams.ipynb` was used to preprocess large dataset of clickstreams using PySpark. Also here ids of clients was matched and .parquet files was created for further use in training the COLES model
+3. `Clickstreams_catboost_and_embed_size_experiment.ipynb` was used to get the embeddings for the downstream task, using Clickstreams dataset and COLES method. Also the metrics for the downstream task was obtained, as well as experiment on the dependency between the embedding size and quality of the model was conducted using clickstreams
+4. `Transactions_agg.ipynb` was used to obtain embeddings, using AggFeature encoder and get the metrics on the downstream task
+5. `Transactions_random_enc.ipynb` was used to obtain embeddings, using Random Encoder and get the metrics on the downstream task
