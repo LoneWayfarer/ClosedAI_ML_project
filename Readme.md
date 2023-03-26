@@ -1,17 +1,14 @@
 # "Machine learning" course Final Project
 ## Team: ClosedAI_ML_Project
 
+Hello! We are ML team who is predicting whether the bank clients have higher education or not using the embeddings, built through variety of models on datasets of transactions and clickstreams.
+
+### Team members:
+
 - Denis Grankin
 - Ekaterina Anreichuk
 - Ivan Apanasevich
 - Mikhail Konenkov
-- Irea Gureeva <br>
-
-Hello! We are ML team who is trying to catch users behavior from transactions and clicks.
-
-![alt text][logo]
-
-[logo]: https://github.com/LoneWayfarer/ClosedAI_ML_project/blob/main/catchy.gif "Catching"
-
+- Irena Gureeva
 ## Topic: Contrastive Learning for Event Sequences with Self-Supervision on multiple domains
 
