@@ -38,15 +38,16 @@ CoLES is a effective embedding technique. In comparison with Random feature enco
 |Precision|0.919|0.993|0.961|1.00|1.00|1.00|
 |Accuracy|0.787|0.741|0.771|0.728|0.728|0.715|
 
-The dependency of the embedding size on the quality of supervised task was also demonstrated . It was found that with the growing embedding size , the quality on the downstream task also increases for both transactions and clickstreams datasets. 
+The dependency of the embedding size on the quality of supervised task was also demonstrated . It was found that with the growing embedding size , the quality on the downstream task also increases for both transactions and clickstreams datasets.<br>
+`NOT VISIBLE WITH DARK THEME` <br>
 ![ROC-AUC vs embed size on transactions](./pics/Transact_emb_exp.png)
 ![ROC-AUC vs embed size on clickstreams](./pics/Clickstreams_emb_exp.png)
 Different types of encoders were evaluated on the downstream task. It was found that `GRU` encoder shows best quality for both of the datasets. 
 |Method|Transactions|Clickstream|
 |-------:| ------------- |:-------------:|
 |GRU|**0.761**|**0.598**|
-|LSTM|0.753|0.577|
-The quality of CoLES on downstream task with different  sampling techniques were also obtained. `SampleRandom` technique was best for Transactions dataset, while `SplitRandom` was better for Clickstreams dataset.
+|LSTM|0.753|0.577|<br>
+The quality of CoLES on downstream task with different  sampling techniques were also obtained. `SampleRandom` technique was best for Transactions dataset, while `SplitRandom` was better for Clickstreams dataset.<br>
 |Method|Transactions|Clickstream|
 |-------:| ------------- |:-------------:|
 |SampleSlices|0.761|0.598|
