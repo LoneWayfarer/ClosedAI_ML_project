@@ -25,7 +25,7 @@ Versions: `Spark version 3.3.2; Hadoop version 2.7` <br>
 ## Structure of the repository 
 Main files, that represents out work are:
 -  `./notebooks` directory contains jupyter notebooks with conducted experiments. More detailed description of contents of this notebooks are presented in `./notebooks/Readme.md`
-- `./Docs` directory contains documents (Project presentation and Project Report), which presents our work in more detail.
+- `./Docs` directory contains documents ([Project presentation](https://github.com/LoneWayfarer/ClosedAI_ML_project/blob/main/Docs/Final_Project_11.pdf) and [Project Report]()), which presents our work in more detail.
 ## Datasets 
 The data was taken from [Data Fusion 2022 competition](https://ods.ai/competitions/data-fusion2022-education/dataset). Main files are [transactions.zip](https://storage.yandexcloud.net/datasouls-ods/materials/0433a4ca/transactions.zip) (transactions dataset), [clickstream.zip](https://storage.yandexcloud.net/datasouls-ods/materials/0554f0cf/clickstream.zip) (clickstream dataset),[train_matching.zip](https://storage.yandexcloud.net/datasouls-ods/materials/acfacf11/train_matching.csv) (dataset of matched user IDs in clickstream dataset and transactions dataset), [train.csv](https://storage.yandexcloud.net/datasouls-ods/materials/e756bf99/train.csv) (dataset, containing the target for the downstream task)
 ## Results
