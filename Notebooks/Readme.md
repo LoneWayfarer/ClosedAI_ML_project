@@ -8,3 +8,5 @@ In total there are 8 of them:
 6. `clickstream_processor.ipynb` was used for processing cliskstream dataset and reducing it's size
 7. `Clickstream_agg.ipynb` was used to obtain embeddings, using AggFeature encoder and get the metrics on the downstream task for clickstream dataset
 8. `Clickstream_random_enc.ipynb` was used to obtain embeddings, using Random Encoder and get the metrics on the downstream task for clickstream dataset
+9. `clickstream+hyperparams.ipynb` was used to obtain embeddings from preprocessed data from `clickstreams.ipynb` and run experimenets for different encoders and sampling methods for clickstream dataset.
+10. `transactions+hyperparams.ipynb` was used to obtain embeddings for transaction dataset and run experiments for different encoders and sampling methods.
