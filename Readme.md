@@ -15,7 +15,10 @@ This repository contains Python code for conducting experiments to compare CoLES
 ![alt text](pics/General_Coles_framework.png)
 CoLES is a self-supervised method for embeddings, which is based on contrastive learning. This method aims to learn a representation such that it brings closer semantically similar pairs closer to each other in embeddings space, while brings dissimilar objects further apart.
 ## Prerequisites 
-Most of the notebooks can be run in Google Collab without 
+Most of the notebooks can be directly run in Google Collab.
+For launching `notebooks/clickstreams.ipynb` PySpark is needed. The actions to configure PySpark can be found [here](https://www.datacamp.com/tutorial/installation-of-pyspark). <br>
+Versions: `Spark version 3.3.2; Hadoop version 2.7` <br>
+`findspark` module and `PySpark` module should also be installed via `!pip install findspark` and `!pip install PySpark` respectively.  
 ## Related documents
 [Repository](https://github.com/dllllb/pytorch-lifestream) of the `pytorch-lifestream` library that was used during this project. <br>
 [CoLES](https://arxiv.org/abs/2002.08232) paper, which introduce CoLES method and presents experiments with it. In the framework of our project we were to replicate this paper.
