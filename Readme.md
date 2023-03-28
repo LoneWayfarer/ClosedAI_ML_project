@@ -43,11 +43,14 @@ The dependency of the embedding size on the quality of supervised task was also 
 ![ROC-AUC vs embed size on transactions](./pics/Transact_emb_exp.png)
 ![ROC-AUC vs embed size on clickstreams](./pics/Clickstreams_emb_exp.png)
 Different types of encoders were evaluated on the downstream task. It was found that `GRU` encoder shows best quality for both of the datasets. 
+
 |Method|Transactions|Clickstream|
 |-------:| ------------- |:-------------:|
 |GRU|**0.761**|**0.598**|
-|LSTM|0.753|0.577|<br>
+|LSTM|0.753|0.577|
+
 The quality of CoLES on downstream task with different  sampling techniques were also obtained. `SampleRandom` technique was best for Transactions dataset, while `SplitRandom` was better for Clickstreams dataset.<br>
+
 |Method|Transactions|Clickstream|
 |-------:| ------------- |:-------------:|
 |SampleSlices|0.761|0.598|
